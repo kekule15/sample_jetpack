@@ -77,7 +77,7 @@ fun MyBizCardWidget() {
                     },
 
                     ) {
-                    Text(text = "Portfolio", style = MaterialTheme.typography.button)
+                    Text(text = "Projects", style = MaterialTheme.typography.button)
                 }
                 if (showPortFolioWidget.value)
                     PortFolioListWidget() else {
